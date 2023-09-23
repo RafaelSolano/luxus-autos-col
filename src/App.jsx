@@ -14,7 +14,7 @@ function App() {
     
     
     
-     <h1>LuxusAutosCol</h1>
+     
     </>
   )
 }
