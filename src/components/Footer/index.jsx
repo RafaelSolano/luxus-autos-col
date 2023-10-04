@@ -1,9 +1,12 @@
 import React from 'react'
 
-function index() {
+function Footer() {
   return (
-    <div>index</div>
+    <div className='Foot'>
+      
+      <section className='s'></section>
+    </div>
   )
 }
 
-export default index
+export default Footer

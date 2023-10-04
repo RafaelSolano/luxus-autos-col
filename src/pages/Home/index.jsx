@@ -1,9 +1,11 @@
 import React from 'react'
+import IndividualIntervalsExample from '../../components/Slider'
 
 export const HomePage = () => {
   return (
     <div>
-        <h1>Home</h1>
+        
+       <IndividualIntervalsExample/>
         
     </div>
   )
