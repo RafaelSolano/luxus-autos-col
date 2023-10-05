@@ -1,12 +1,40 @@
-import React from 'react'
+import React from "react";
+import "./styles.css";
+import { Facebook, Whatsapp, Instagram } from "react-bootstrap-icons";
 
-function Footer() {
+function FooterLuxus() {
   return (
-    <div className='Foot'>
-      
-      <section className='s'></section>
+    <div className="footer__container">
+      <section className="">
+        <h2>Logo</h2>
+      </section>
+      <section className="">
+        <h2>Contactanos</h2>
+      </section>
+      <section className="">
+        <h2>Logo</h2>
+      </section>
+      <section className="footer__social_networks">
+        <h2>Siguenos</h2>
+        <div className="social_networks__container">
+          <a href="#">
+            <Facebook color="white" size={48} />
+            <span className=" social_networks__label">Facebook </span>
+          </a>
+          <a href="#">
+            <Instagram color="white" size={48} />
+            <span className=" social_networks__label" >Instagram </span>
+
+            
+          </a>
+          <a href="#">
+            <Whatsapp color="white" size={48} />
+            <span className=" social_networks__label" >Whatsapp </span>
+          </a>
+        </div>
+      </section>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default FooterLuxus;
