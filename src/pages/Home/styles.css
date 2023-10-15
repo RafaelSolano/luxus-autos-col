@@ -1,5 +1,7 @@
 .container__cars{
     display: flex;
     flex-wrap:wrap ;
+    margin-bottom: 34px;
+    justify-content: space-between;
 
 }
