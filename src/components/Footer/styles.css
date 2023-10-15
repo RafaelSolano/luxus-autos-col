@@ -3,8 +3,13 @@
     justify-content: space-around;
     color: white;
     object-fit: contain;
+    position: relative;
+    bottom: 0;
     
 
+}
+.footer__logo{
+    max-width: 450px;
 }
 
 .social_networks__container{

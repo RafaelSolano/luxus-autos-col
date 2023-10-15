@@ -1,14 +1,26 @@
-import React from 'react'
-import IndividualIntervalsExample from '../../components/Slider'
-import FooterLuxus from '../../components/Footer'
+import React from "react";
+import IndividualIntervalsExample from "../../components/Slider";
+import { CardProduct } from "../../components/CardCars";
+import './styles.css';
 
 export const HomePage = () => {
   return (
     <div>
-        
-       <IndividualIntervalsExample/>
-       <FooterLuxus/>
-        
+      <IndividualIntervalsExample />
+      <div className=" container container__cars">
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+        <CardProduct />
+      </div>
     </div>
-  )
-}
+  );
+};

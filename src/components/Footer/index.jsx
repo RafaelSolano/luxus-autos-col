@@ -6,10 +6,19 @@ function FooterLuxus() {
   return (
     <div className="footer__container">
       <section className="">
-        <h2>Logo</h2>
+        <img className="footer__logo" src="https://res.cloudinary.com/djsupmnmo/image/upload/v1697311901/luxusAutosInventario/Logos_Luxus_Autos_PNG_q4s2uq.png" alt="logo luxus Autos" />
       </section>
       <section className="">
         <h2>Contactanos</h2>
+        <ul>
+          <li>3138990861</li>
+          <li>3204590520</li>
+          <li>3204590520</li>
+
+
+          
+
+        </ul>
       </section>
       <section className="">
         <h2>Logo</h2>
